@@ -1,0 +1,15 @@
+{
+  "name": "portadesing/coding-standard",
+  "description": "Porta Design coding standard",
+  "config": {
+    "discard-changes": true,
+    "secure-http": true
+  },
+  "require": {
+    "slevomat/coding-standard": "^4.5",
+    "escapestudios/symfony2-coding-standard": "^3.11"
+  },
+  "autoload": {
+    "classmap": ["src/"]
+  }
+}
